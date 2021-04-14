@@ -93,7 +93,7 @@ public class BasePage {
 	}
 	public static void quit() throws InterruptedException {
 		if(driver!=null) {
-			Thread.sleep(10000);	
+			Thread.sleep(8000);	
 			driver.quit();
 			log.debug("Browser Closed!!!");
 		}
@@ -108,7 +108,7 @@ public class BasePage {
 			driver.findElement(By.xpath(or.getProperty(locator))).click();
 		}
 		log.debug("Clicking on element:"+locator);
-		test.log(Status.INFO, "Clicking on: '"+locator+'");
+		test.log(Status.INFO, "Clicking on: '"+locator+"'");
 	}
 	
 	public void typeatext(String locator, String value) {
@@ -150,5 +150,4 @@ public class BasePage {
 		File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(screenshotFile, new File(screenshotName));
 	}
-
 }
