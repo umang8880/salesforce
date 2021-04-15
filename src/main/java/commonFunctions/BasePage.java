@@ -128,6 +128,7 @@ public class BasePage {
 		WebElement element = driver.findElement(By.xpath(or.getProperty(locator)));
 		Actions actions = new Actions(driver);
 		actions.moveToElement(element).click().perform();
+		test.log(Status.INFO, "Clicking on: '"+locator+"'");
 	}
 	
 	public void dropdown(String locator, String selectlocator, String value) {
