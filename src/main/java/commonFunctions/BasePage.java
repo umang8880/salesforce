@@ -21,6 +21,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -42,7 +43,7 @@ public class BasePage {
 
 	public static void setUp() {
 		if(driver==null) {
-			//Initialized properties file
+			//Initialized properties file 
 			try {
 				fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\Config.properties");
 			} catch (FileNotFoundException e) {
@@ -150,5 +151,18 @@ public class BasePage {
 		screenshotName = screenshotpath+methodName+"_Full_"+getcurrenttime();
 		File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(screenshotFile, new File(screenshotName));
+	}
+	public static void verifyEquals(String actual, String exp, String methodName) throws IOException {
+		try{
+			Assert.assertEquals(actual, exp);
+		}catch(Throwable t) {
+			
+			captureScreenShots(screenshotpath, methodName);			
+			//Extent Report
+			test.fail("<a href=\""+screenshotName+"\" target='_blank'>Click here to see full scerrenshot in new tab</a>"
+					 +"<br>"+"<br>"
+					 +"<a href=\""+screenshotName+"\" target='_blank'><img src=\""+screenshotName+"\" height=250 width=250></a>");
+			test.log(Status.FAIL, "Verification failed with exception: "+t.getMessage());
+		}
 	}
 }
