@@ -38,7 +38,7 @@ public class LeadPage extends BasePage{
 		mouseHoverAndClick("progressbar_converted_XPATH");
 		Thread.sleep(2000);
 		mouseHoverAndClick("selectConvertedSatus_XPATH");
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		mouseHoverAndClick("convertLead_convertBtn_XPATH");
 	}
 

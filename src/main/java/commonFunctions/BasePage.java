@@ -141,6 +141,7 @@ public class BasePage {
 	}
 	
 	public static String screenshotName;
+	public static String screenshotforExtentReport;
 	public static String getcurrenttime() {
 		Date d = new Date();
 		String current_time = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
@@ -148,7 +149,9 @@ public class BasePage {
 	}
 
 	public static void captureScreenShots(String screenshotpath, String methodName) throws IOException {
-		screenshotName = screenshotpath+methodName+"_Full_"+getcurrenttime();
+		String currenttime = getcurrenttime();
+		screenshotName = screenshotpath+methodName+"_Full_"+currenttime;
+		screenshotforExtentReport = "./"+methodName+"_Full_"+currenttime;
 		File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(screenshotFile, new File(screenshotName));
 	}
@@ -156,12 +159,11 @@ public class BasePage {
 		try{
 			Assert.assertEquals(actual, exp);
 		}catch(Throwable t) {
-			
 			captureScreenShots(screenshotpath, methodName);			
 			//Extent Report
-			test.fail("<a href=\""+screenshotName+"\" target='_blank'>Click here to see full scerrenshot in new tab</a>"
+			test.fail("<a href=\""+screenshotforExtentReport+"\" target='_blank'>Click here to see full scerrenshot in new tab</a>"
 					 +"<br>"+"<br>"
-					 +"<a href=\""+screenshotName+"\" target='_blank'><img src=\""+screenshotName+"\" height=250 width=250></a>");
+					 +"<a href=\""+screenshotforExtentReport+"\" target='_blank'><img src=\""+screenshotforExtentReport+"\" height=250 width=250></a>");
 			test.log(Status.FAIL, "Verification failed with exception: "+t.getMessage());
 		}
 	}

@@ -1,68 +1,68 @@
-DEBUG   2021-04-19 11:22:35,569 [main] devpinoyLogger  - Config file loaded!!!
-DEBUG   2021-04-19 11:22:35,569 [main] devpinoyLogger  - OR file loaded!!!
-DEBUG   2021-04-19 11:22:39,438 [main] devpinoyLogger  - Chrome Launch
-DEBUG   2021-04-19 11:22:41,429 [main] devpinoyLogger  - Navigated to: https://login.salesforce.com/?locale=in
-DEBUG   2021-04-19 11:22:43,716 [main] devpinoyLogger  - Typing in:username_ID and entered value is:umang8880@up.com
-DEBUG   2021-04-19 11:22:43,869 [main] devpinoyLogger  - Typing in:password_ID and entered value is:Umang@8880
-DEBUG   2021-04-19 11:22:47,357 [main] devpinoyLogger  - Clicking on element:login_ID
-DEBUG   2021-04-19 11:22:55,063 [main] devpinoyLogger  - Clicking on element:newBtn_XPATH
-DEBUG   2021-04-19 11:22:56,929 [main] devpinoyLogger  - Typing in:phone_XPATH and entered value is:27454531
-DEBUG   2021-04-19 11:22:57,185 [main] devpinoyLogger  - Typing in:mobile_XPATH and entered value is:8460343563
-DEBUG   2021-04-19 11:22:59,269 [main] devpinoyLogger  - Typing in:firstname_XPATH and entered value is:Umang
-DEBUG   2021-04-19 11:22:59,447 [main] devpinoyLogger  - Typing in:lastname_XPATH and entered value is:Parekhh
-DEBUG   2021-04-19 11:22:59,661 [main] devpinoyLogger  - Typing in:company_XPATH and entered value is:Ssculptsoft
-DEBUG   2021-04-19 11:22:59,817 [main] devpinoyLogger  - Typing in:title_XPATH and entered value is:CEO
-DEBUG   2021-04-19 11:23:00,197 [main] devpinoyLogger  - Typing in:email_XPATH and entered value is:parekhumangr+1@gmail.com
-DEBUG   2021-04-19 11:23:04,777 [main] devpinoyLogger  - Typing in:street_XPATH and entered value is:600 Greenfield Avenue
-DEBUG   2021-04-19 11:23:05,084 [main] devpinoyLogger  - Typing in:city_XPATH and entered value is:Kitchener
-DEBUG   2021-04-19 11:23:05,220 [main] devpinoyLogger  - Typing in:state_XPATH and entered value is:ON
-DEBUG   2021-04-19 11:23:05,452 [main] devpinoyLogger  - Typing in:postal_code_XPATH and entered value is:N2C 2J9
-DEBUG   2021-04-19 11:23:05,649 [main] devpinoyLogger  - Typing in:country_XPATH and entered value is:CANADA
-DEBUG   2021-04-19 11:23:05,971 [main] devpinoyLogger  - Typing in:description_XPATH and entered value is:This is test description
-DEBUG   2021-04-19 11:23:06,103 [main] devpinoyLogger  - Clicking on element:save_XPATH
-DEBUG   2021-04-19 11:23:21,114 [main] devpinoyLogger  - Browser Closed!!!
-DEBUG   2021-04-19 11:23:21,159 [main] freemarker.cache  - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
-DEBUG   2021-04-19 11:23:21,161 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
-DEBUG   2021-04-19 11:23:21,164 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
-DEBUG   2021-04-19 11:23:21,164 [main] freemarker.cache  - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
-DEBUG   2021-04-19 11:23:21,413 [main] freemarker.cache  - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
-DEBUG   2021-04-19 11:23:21,413 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
-DEBUG   2021-04-19 11:23:21,413 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
-DEBUG   2021-04-19 11:23:21,413 [main] freemarker.cache  - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
-DEBUG   2021-04-19 11:23:21,413 [main] freemarker.cache  - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
-DEBUG   2021-04-19 11:23:21,413 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
-DEBUG   2021-04-19 11:23:21,413 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
-DEBUG   2021-04-19 11:23:21,413 [main] freemarker.cache  - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
-DEBUG   2021-04-19 11:23:21,507 [main] freemarker.cache  - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
-DEBUG   2021-04-19 11:23:21,507 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
-DEBUG   2021-04-19 11:23:21,507 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
-DEBUG   2021-04-19 11:23:21,507 [main] freemarker.cache  - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
-DEBUG   2021-04-19 11:23:21,514 [main] freemarker.cache  - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-DEBUG   2021-04-19 11:23:21,514 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
-DEBUG   2021-04-19 11:23:21,514 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
-DEBUG   2021-04-19 11:23:21,514 [main] freemarker.cache  - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
-DEBUG   2021-04-19 11:23:21,532 [main] freemarker.cache  - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
-DEBUG   2021-04-19 11:23:21,532 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
-DEBUG   2021-04-19 11:23:21,532 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
-DEBUG   2021-04-19 11:23:21,532 [main] freemarker.cache  - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
-DEBUG   2021-04-19 11:23:21,547 [main] freemarker.cache  - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-DEBUG   2021-04-19 11:23:21,563 [main] freemarker.cache  - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
-DEBUG   2021-04-19 11:23:21,563 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
-DEBUG   2021-04-19 11:23:21,563 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
-DEBUG   2021-04-19 11:23:21,563 [main] freemarker.cache  - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
-DEBUG   2021-04-19 11:23:21,563 [main] freemarker.cache  - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-DEBUG   2021-04-19 11:23:21,563 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
-DEBUG   2021-04-19 11:23:21,563 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
-DEBUG   2021-04-19 11:23:21,563 [main] freemarker.cache  - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
-DEBUG   2021-04-19 11:23:21,579 [main] freemarker.cache  - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
-DEBUG   2021-04-19 11:23:21,579 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
-DEBUG   2021-04-19 11:23:21,579 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
-DEBUG   2021-04-19 11:23:21,579 [main] freemarker.cache  - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
-DEBUG   2021-04-19 11:23:21,579 [main] freemarker.cache  - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-DEBUG   2021-04-19 11:23:21,579 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
-DEBUG   2021-04-19 11:23:21,579 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
-DEBUG   2021-04-19 11:23:21,579 [main] freemarker.cache  - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
-DEBUG   2021-04-19 11:23:21,594 [main] freemarker.cache  - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-DEBUG   2021-04-19 11:23:21,594 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
-DEBUG   2021-04-19 11:23:21,594 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
-DEBUG   2021-04-19 11:23:21,594 [main] freemarker.cache  - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+DEBUG   2021-04-19 19:54:19,262 [main] devpinoyLogger  - Config file loaded!!!
+DEBUG   2021-04-19 19:54:19,264 [main] devpinoyLogger  - OR file loaded!!!
+DEBUG   2021-04-19 19:54:24,026 [main] devpinoyLogger  - Chrome Launch
+DEBUG   2021-04-19 19:54:26,347 [main] devpinoyLogger  - Navigated to: https://login.salesforce.com/?locale=in
+DEBUG   2021-04-19 19:54:29,171 [main] devpinoyLogger  - Typing in:username_ID and entered value is:umang8880@up.com
+DEBUG   2021-04-19 19:54:29,267 [main] devpinoyLogger  - Typing in:password_ID and entered value is:Umang@8880
+DEBUG   2021-04-19 19:54:34,026 [main] devpinoyLogger  - Clicking on element:login_ID
+DEBUG   2021-04-19 19:54:41,778 [main] devpinoyLogger  - Clicking on element:newBtn_XPATH
+DEBUG   2021-04-19 19:54:43,242 [main] devpinoyLogger  - Typing in:phone_XPATH and entered value is:27454531
+DEBUG   2021-04-19 19:54:43,474 [main] devpinoyLogger  - Typing in:mobile_XPATH and entered value is:8460343563
+DEBUG   2021-04-19 19:54:45,593 [main] devpinoyLogger  - Typing in:firstname_XPATH and entered value is:Umang
+DEBUG   2021-04-19 19:54:45,785 [main] devpinoyLogger  - Typing in:lastname_XPATH and entered value is:Parekhh
+DEBUG   2021-04-19 19:54:46,004 [main] devpinoyLogger  - Typing in:company_XPATH and entered value is:Ssculptsoft
+DEBUG   2021-04-19 19:54:46,166 [main] devpinoyLogger  - Typing in:title_XPATH and entered value is:CEO
+DEBUG   2021-04-19 19:54:46,558 [main] devpinoyLogger  - Typing in:email_XPATH and entered value is:parekhumangr+1@gmail.com
+DEBUG   2021-04-19 19:54:51,428 [main] devpinoyLogger  - Typing in:street_XPATH and entered value is:600 Greenfield Avenue
+DEBUG   2021-04-19 19:54:51,735 [main] devpinoyLogger  - Typing in:city_XPATH and entered value is:Kitchener
+DEBUG   2021-04-19 19:54:51,867 [main] devpinoyLogger  - Typing in:state_XPATH and entered value is:ON
+DEBUG   2021-04-19 19:54:53,550 [main] devpinoyLogger  - Typing in:postal_code_XPATH and entered value is:N2C 2J9
+DEBUG   2021-04-19 19:54:53,772 [main] devpinoyLogger  - Typing in:country_XPATH and entered value is:CANADA
+DEBUG   2021-04-19 19:54:54,081 [main] devpinoyLogger  - Typing in:description_XPATH and entered value is:This is test description
+DEBUG   2021-04-19 19:54:54,327 [main] devpinoyLogger  - Clicking on element:save_XPATH
+DEBUG   2021-04-19 19:55:13,872 [main] devpinoyLogger  - Browser Closed!!!
+DEBUG   2021-04-19 19:55:14,298 [main] freemarker.cache  - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG   2021-04-19 19:55:14,298 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+DEBUG   2021-04-19 19:55:14,313 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+DEBUG   2021-04-19 19:55:14,313 [main] freemarker.cache  - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+DEBUG   2021-04-19 19:55:16,885 [main] freemarker.cache  - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG   2021-04-19 19:55:16,886 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+DEBUG   2021-04-19 19:55:16,886 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+DEBUG   2021-04-19 19:55:16,886 [main] freemarker.cache  - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+DEBUG   2021-04-19 19:55:16,891 [main] freemarker.cache  - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG   2021-04-19 19:55:16,892 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+DEBUG   2021-04-19 19:55:16,893 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+DEBUG   2021-04-19 19:55:16,893 [main] freemarker.cache  - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+DEBUG   2021-04-19 19:55:17,065 [main] freemarker.cache  - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG   2021-04-19 19:55:17,065 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+DEBUG   2021-04-19 19:55:17,066 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+DEBUG   2021-04-19 19:55:17,066 [main] freemarker.cache  - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+DEBUG   2021-04-19 19:55:17,371 [main] freemarker.cache  - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG   2021-04-19 19:55:17,372 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+DEBUG   2021-04-19 19:55:17,373 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+DEBUG   2021-04-19 19:55:17,373 [main] freemarker.cache  - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+DEBUG   2021-04-19 19:55:17,574 [main] freemarker.cache  - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG   2021-04-19 19:55:17,575 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+DEBUG   2021-04-19 19:55:17,576 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+DEBUG   2021-04-19 19:55:17,576 [main] freemarker.cache  - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+DEBUG   2021-04-19 19:55:17,614 [main] freemarker.cache  - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG   2021-04-19 19:55:17,626 [main] freemarker.cache  - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG   2021-04-19 19:55:17,627 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+DEBUG   2021-04-19 19:55:17,627 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+DEBUG   2021-04-19 19:55:17,628 [main] freemarker.cache  - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+DEBUG   2021-04-19 19:55:17,659 [main] freemarker.cache  - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG   2021-04-19 19:55:17,660 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+DEBUG   2021-04-19 19:55:17,660 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+DEBUG   2021-04-19 19:55:17,662 [main] freemarker.cache  - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+DEBUG   2021-04-19 19:55:17,667 [main] freemarker.cache  - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG   2021-04-19 19:55:17,668 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+DEBUG   2021-04-19 19:55:17,668 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+DEBUG   2021-04-19 19:55:17,668 [main] freemarker.cache  - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+DEBUG   2021-04-19 19:55:17,673 [main] freemarker.cache  - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG   2021-04-19 19:55:17,674 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+DEBUG   2021-04-19 19:55:17,674 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+DEBUG   2021-04-19 19:55:17,675 [main] freemarker.cache  - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+DEBUG   2021-04-19 19:55:17,688 [main] freemarker.cache  - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG   2021-04-19 19:55:17,688 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+DEBUG   2021-04-19 19:55:17,689 [main] freemarker.cache  - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+DEBUG   2021-04-19 19:55:17,689 [main] freemarker.cache  - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LB-14/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"

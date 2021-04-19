@@ -49,9 +49,9 @@ public class Listeners extends BasePage implements ITestListener, ISuiteListener
 							+"<b>"+"<font color=" + "red>" + "Exception Occured:Click to see"+ "</font>"+"</b>"
 						+"</summary>"
 					 + excepionMessage.replaceAll(",", "<br>") + "</details>"+" \n"+"<br>"
-					 +"<a href=\""+screenshotName+"\" target='_blank'>Click here to see full scereenshot in new tab</a>"
+					 +"<a href=\""+screenshotforExtentReport+"\" target='_blank'>Click here to see full scereenshot in new tab</a>"
 					 +"<br>"+"<br>"
-					 +"<a href=\""+screenshotName+"\" target='_blank'><img src=\""+screenshotName+"\" height=250 width=250></a>");
+					 +"<a href=\""+screenshotforExtentReport+"\" target='_blank'><img src=\""+screenshotforExtentReport+"\" height=250 width=250></a>");
 		
 		
 		String logtext = "<b>" + "Test Case: "+methodName.toUpperCase()+": "+" FAILED"+"</b>";
